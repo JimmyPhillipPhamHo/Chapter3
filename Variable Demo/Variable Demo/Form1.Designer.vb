@@ -124,7 +124,7 @@ Partial Class Form1
         Me.Controls.Add(Me.lblLastName)
         Me.Controls.Add(Me.lblFirstName)
         Me.Name = "Form1"
-        Me.Text = "FullName"
+        Me.Text = "Variable Demo"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
