@@ -64,9 +64,9 @@ Namespace My
     Friend Module MySettingsProperty
         
         <Global.System.ComponentModel.Design.HelpKeywordAttribute("My.Settings")>  _
-        Friend ReadOnly Property Settings() As Global.Greetings.My.MySettings
+        Friend ReadOnly Property Settings() As Global.Miles_per_Gallon_Calculator.My.MySettings
             Get
-                Return Global.Greetings.My.MySettings.Default
+                Return Global.Miles_per_Gallon_Calculator.My.MySettings.Default
             End Get
         End Property
     End Module
