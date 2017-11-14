@@ -69,8 +69,13 @@
     End Sub
 
     Private Sub btnClear_Click(sender As Object, e As EventArgs) Handles btnClear.Click
-        txtNumber1.Text()
-        txtNumber2()
+        txtNumber1.Clear()
+        txtNumber2.Clear()
+        lblResult.Text = String.Empty
 
+    End Sub
+
+    Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
+        Me.Close()
     End Sub
 End Class

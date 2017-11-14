@@ -174,7 +174,7 @@ Partial Class Form1
         '
         Me.lblOperation.AutoSize = True
         Me.lblOperation.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblOperation.Location = New System.Drawing.Point(73, 148)
+        Me.lblOperation.Location = New System.Drawing.Point(40, 152)
         Me.lblOperation.Name = "lblOperation"
         Me.lblOperation.Size = New System.Drawing.Size(0, 25)
         Me.lblOperation.TabIndex = 21
